@@ -5,7 +5,8 @@
 
 body {
 	color: #505050;
-	font: 16px "Roboto", sans-serif;
+	font: 18px "Roboto", sans-serif;
+	background: #edf6ff;
 }
 
 header {
@@ -14,20 +15,62 @@ header {
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
 
+footer {
+	
+	vertical-align: middle;
+	background-color: #34495e;
+	color: #95a5a6;
+	padding: 50px 0;
+}
+
+h1 {
+	font-weight: 300;
+}
+h3 {
+	font-weight: 200;
+}
+
+a {
+	background-color: transparent;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+}
+
 .logo {
 	width: 100px;
 
 }
 
 .banner {
-	color: #fafafa;
+	color: #fafafa;	
 
 }
 
 .top-project {	
 	padding: 0;
 	margin-top: 1px;
-	background-image: url(../images/top_project.jpg);
+	background: url(../images/top_project.jpg) no-repeat center;
 	background-size: cover;
-	height: 300px;
+	height: 400px;
 }
+
+.card {
+	padding: 0px;
+	background-color: #fff;	
+	margin: 10px 0;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
+	width: calc((100% - 40px)/3);
+	margin-right: calc(40px/2);
+	
+}
+
+@media screen and (min-width: 1200px) {
+	body {
+		width: 1200px;
+		margin: 0 auto;
+	}
+}
+
+

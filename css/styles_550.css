@@ -1,0 +1,40 @@
+
+body {
+	font-size: 14px;
+}
+h1 {
+	font-size: 5.9vw;
+	margin: 10px 0;
+	font-weight: 200;
+}
+
+h2 {
+	font-size: 5.0vw;
+}
+
+h3 {
+	font-size: 4.2vw;
+	font-weight: 100;
+
+}
+
+.logo {
+	width: 20vw;
+}
+
+.top-project {
+	height: 200px;
+}
+
+/* Keep logo size at 100px */
+@media screen and (min-width: 500px) {
+	.logo { width: 100px; }
+}
+
+.card {
+	padding: 0px;
+	background-color: #fff;
+	margin: 10px 0;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+	width: 100%;
+}

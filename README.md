@@ -1,2 +1,2 @@
 # udacity_p1_porfolio
-Project 1 nanodegree from udacity
+Project 1_nanodegree from udacity

@@ -6,38 +6,137 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/bootstrap.css">
+
+		
 		<link rel="stylesheet" href="css/styles.css">
+
+		<!-- default for laptop (>=992px) -->
+		<link rel="stylesheet" href="css/styles_992.css" media="screen and (min-width: 992px)">
+		<!-- for tablet (>=551, < 992px) -->
+		<link rel="stylesheet" href="css/styles_768.css" media="screen and (min-width: 551px) and (max-width:991px)">
+		<!-- for mobile (<= 550px) -->
+		<link rel="stylesheet" href="css/styles_550.css" media="screen and (max-width: 550px)">
+		
 	</head>
 	<body>
+
 	<header>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-4">
+				<div class="col-xs-4 col-sm-2">
 					<img class="logo" src="imgs/logo.png" alt="My Logo">	
 				</div>
-				<div class="col-xs-8 banner text-uppercase">
+				<div class="col-xs-8 col-sm-10 banner text-uppercase text-right">
 					<h1>Thành Chung Bùi</h1>
 					<h3>Front end ninja</h3>
 				</div>
 			</div>
 		</div>
 	</header>
+
 	<main>
-		<section class="content">
+		<section id="top-project">
 			<div class="container-fluid">
 				<div class="row ">
 					<div class="col-xs-12 top-project">
-						<!-- <img class="img-responsive " src="images/top_project.jpg" alt=""> -->
+						
 					</div>
 				</div>
 			</div>
 		</section>	
 
+		<section id="featured-work">
+			<div class="container-fluid">
+				<!-- Title -->
+				<div class="row">
+					<div class="col-xs-12">
+						<h3>Featured Work</h3>
+					</div>
+				</div>
+
+				<!-- Content -->
+				<div class="row card-container">
+					<!-- Card 1 -->
+					<div class="col-xs-12 col-sm-6 col-md-4 card">
+						<article class="text-center">
+							<a href="#" class="article-link">								
+								<img src="images/project1.jpg" alt="Project 1" class="img-responsive">					
+								<h3>Project 1</h3>
+								<p>My first project</p>
+							</a>							
+						</article>
+					</div>
+
+					<!-- Card 2 -->
+					<div class="col-xs-12 col-sm-6 col-md-4 card">
+						<article class="text-center">
+							<a href="#" class="article-link">
+								<img src="images/project2.jpg" alt="Project 2" class="img-responsive">
+								<h3>Project 2</h3>
+								<p>Porfolio</p>
+							</a>							
+						</article>
+					</div>
+
+					<!-- Card 3 -->
+					<div class="col-xs-12 col-sm-6 col-md-4 card">
+						<article class="text-center">
+							<a href="#" class="article-link">
+								<img src="images/project3.jpg" alt="Project 3" class="img-responsive">
+								<h3>Project 3</h3>
+								<p>Online resume</p>
+							</a>							
+						</article>
+					</div>
+
+					<!-- Card 4 -->
+					<div class="col-xs-12 col-sm-6 col-md-4 card">
+						<article class="text-center">
+							<a href="#" class="article-link">
+								<img src="images/project4.jpg" alt="Project 4" class="img-responsive">
+								<h3>Project 4</h3>
+								<p>Porfolio</p>
+							</a>							
+						</article>
+					</div>
+
+					<!-- Card 5 -->
+					<div class="col-xs-12 col-sm-6 col-md-4 card">
+						<article class="text-center">
+							<a href="#" class="article-link">
+								<img src="images/project5.jpg" alt="Project 5" class="img-responsive">
+								<h3>Project 5</h3>
+								<p>Porfolio</p>
+							</a>							
+						</article>
+					</div>
+
+					<!-- Card 6 -->
+					<div class="col-xs-12 col-sm-6 col-md-4 card">
+						<article class="text-center">
+							<a href="#" class="article-link">
+								<img src="images/project6.jpg" alt="Project 6" class="img-responsive">
+								<h3>Project 6</h3>
+								<p>Porfolio</p>
+							</a>							
+						</article>
+					</div>
+
+					
+				</div>
+
+
+
+			</div>
+		</section>
+	
+
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
-						Project 1
+					<div class="col-md-12 text-center">
+						<p>Created by: Thanh Chung Bui</p>
+						<p>Email: thanhchungbtc@gmail.com</p>
 					</div>		
 				</div>
 			</div>
