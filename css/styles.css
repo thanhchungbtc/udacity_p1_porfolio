@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	color: #505050;
+	font: 16px "Roboto", sans-serif;
+}
+
+header {
+	background-color: #00A885;
+	padding: 20px 0;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.logo {
+	width: 100px;
+
+}
+
+.banner {
+	color: #fafafa;
+
+}
+
+.top-project {	
+	padding: 0;
+	margin-top: 1px;
+	background-image: url(../images/top_project.jpg);
+	background-size: cover;
+	height: 300px;
+}
