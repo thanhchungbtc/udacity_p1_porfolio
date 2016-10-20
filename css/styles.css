@@ -10,13 +10,12 @@ body {
 }
 
 header {
-	background-color: #00A885;
+	background-color: #00a885;
 	padding: 20px 0;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
 
-footer {
-	
+footer {	
 	vertical-align: middle;
 	background-color: #34495e;
 	color: #95a5a6;
@@ -26,6 +25,7 @@ footer {
 h1 {
 	font-weight: 300;
 }
+
 h3 {
 	font-weight: 200;
 }
@@ -34,18 +34,22 @@ a {
 	background-color: transparent;
 }
 
-a, a:hover, a:focus {
+a,
+a:hover,
+a:focus {
 	text-decoration: none;
+}
+
+.container {
+	padding: 0 10px;
 }
 
 .logo {
 	width: 100px;
-
 }
 
 .banner {
 	color: #fafafa;	
-
 }
 
 .top-project {	
@@ -54,6 +58,7 @@ a, a:hover, a:focus {
 	background: url(../images/top_project.jpg) no-repeat center;
 	background-size: cover;
 	height: 400px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
 }
 
 .card {
@@ -61,9 +66,8 @@ a, a:hover, a:focus {
 	background-color: #fff;	
 	margin: 10px 0;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
-	width: calc((100% - 40px)/3);
-	margin-right: calc(40px/2);
-	
+	width: calc((100% - 60px)/4);
+	margin-right: calc(60px/3);	
 }
 
 @media screen and (min-width: 1200px) {
